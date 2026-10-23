@@ -1,7 +1,9 @@
+# Game Testing
+
 ## Game Opening
 
 | TC ID | Test Case Name | Preconditions | Steps | Expected Result |
 |---|---|---|---|---|
-| TC-001 | Verify game opens successfully on desktop | Player is logged in and has access to the selected game. A supported desktop browser is used. | 1. Open the game launch page. 2. Select the required game. 3. Open the game. 4. Wait for loading to finish. | The game opens successfully without errors. |
-| TC-002 | Verify game loads completely without errors | Player is logged in and has access to the selected game. A stable internet connection is available. | 1. Open the selected game. 2. Wait until loading finishes. 3. Observe the game interface. | The game loads completely without a stuck loading screen, blank screen, missing elements, or unexpected error messages. |
-| TC-003 | Verify game UI is displayed correctly after opening | Player is logged in and has access to the selected game. | 1. Open the game. 2. Wait until it is fully loaded. 3. Check the game interface. | All applicable UI elements are displayed correctly. |
+| TC-001 | Verify game opens successfully on desktop | Player is logged in and has access to the game. | 1. Open the game launch page. 2. Select the game. 3. Open the game. | The game opens successfully without errors. |
+| TC-002 | Verify game loads completely without errors | Player is logged in and has a stable internet connection. | 1. Open the game. 2. Wait for loading to finish. 3. Check the interface. | The game loads completely without errors. |
+| TC-003 | Verify game UI is displayed correctly | Player is logged in and has access to the game. | 1. Open the game. 2. Wait until it loads. 3. Check the interface. | All applicable UI elements are displayed correctly. |
