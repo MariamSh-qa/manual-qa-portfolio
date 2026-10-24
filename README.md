@@ -86,7 +86,7 @@ Manual Testing, Web Application Testing 🌐, Mobile Application Testing 📱, F
 
 ## Repository Structure 📁
 
-- 📁 Test Cases – Manual test cases for web and mobile applications [Test_Cases_Login.md](Test_Cases/Test_Cases_Login.md) 
+- 📁 Test Cases – Manual test cases for web and mobile applications [Test_Cases_Login.md](/Test_Cases_Login.md) 
 - 📁 Bug Reports – Documented bugs with steps to reproduce and expected results
 - 📁 Test Plans – Test strategy and planning documents
 - 📁 API Testing – Postman collections and API test scenarios
