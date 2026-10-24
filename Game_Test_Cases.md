@@ -151,5 +151,5 @@
 | TC-086 | Consistent language across game and lobby/platform | — | Change the game from the game lobby. | Changing the game from the lobby should affect another game. |
 | TC-087 | Currency mismatch with language | Account currency is configured. | Select a language whose region typically uses a different currency than the account's actual currency. | Language and currency remain correctly independent; game currency does not change just because the language changed. |
 | TC-088 | Language persists through demo/real mode switch | A language has been selected. | Switch language, then switch between demo and real mode. | Language setting remains consistent across both modes. |
-| — | No mixed-language text in a single screen | A language has been selected. | Check each screen carefully after switching language. | No screen shows a mix of two languages simultaneously, which would indicate incomplete translation loading. |
+| TC-089 | No mixed-language text in a single screen | A language has been selected. | Check each screen carefully after switching language. | No screen shows a mix of two languages simultaneously, which would indicate incomplete translation loading. |
 
